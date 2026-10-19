@@ -1,24 +1,22 @@
+# Expense Tracker CLI
 
-Phir neeche **"Commit changes"** par click kar dein.
+A simple Command Line Interface (CLI) application built in Python to track daily income and expenses. This project demonstrates file I/O, data aggregation, and basic data visualization.
 
-### Step 5: Chart Image bhi Upload Karein (Optional lekin acha lagta hai)
-Agar aap chahein toh `expense_chart.png` file bhi upload kar dein taake jo bhi aapka project dekhe woh graph dekh sake. (Iske liye wahi Step 3 repeat karein aur sirf png file upload karein).
+## 🚀 Features
+- Add income and expense entries (with Date, Category, Amount, and Type).
+- Automatically saves data to a CSV file (`expenses.csv`).
+- View monthly summaries (Total Income, Total Expense, and Net Balance).
+- Export a bar chart of expenses by category as an image (`expense_chart.png`).
 
-### Step 6: Final Link Copy Karein
-Ab aapke browser mein jo link khula hai, usko copy kar lein. Woh kuch is tarah hoga:
-`https://github.com/AapkaUsername/Expense-Tracker-CLI`
+## 🛠️ Technologies Used
+- **Python** (Core logic)
+- **Pandas** (Data handling and aggregation)
+- **Matplotlib** (Data visualization/charts)
+- **CSV module** (File storage)
 
-**Yeh link aapko submission form mein dalna hai!**
+## ⚙️ How to Run Locally
+1. Clone this repository.
+2. Install the required libraries:
+   ```bash
+   pip install pandas matplotlib
 
----
-
-### 💡 Ek Aur Zaroori Baat (Terminal se GitHub Upload karna)
-Agar aapne VS Code mein abhi tak `.git` initialize nahi kiya hai, toh aap VS Code ke terminal mein yeh commands bhi chala sakte hain (taake aage future mein code update karna aasan ho):
-```bash
-git init
-git add .
-git commit -m "Initial commit: Added Expense Tracker CLI"
-git branch -M main
-git remote add origin https://github.com/AapkaUsername/Expense-Tracker-CLI.git
-git push -u origin main# -Expense-Tracker-CLI
-A Python CLI app to track income and expenses, with CSV storage and Matplotlib charts
